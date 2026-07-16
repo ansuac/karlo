@@ -1,4 +1,4 @@
-const mapUrl = "https://maps.app.goo.gl/KzteH1vC87o4f6yz7";
+const mapUrl = "https://maps.app.goo.gl/vAsMFW3HURaZeJAp8";
 const confirmUrl =
   "https://wa.me/5214731448429?text=" +
   encodeURIComponent("Confirmo mi asistencia al cumpleaños número 34 ⚽🍻🏆");
@@ -33,7 +33,7 @@ export default function Home() {
               <div className="stat green"><small>Hora de inicio:</small><strong>A partir de las<br />5:00 p.m.</strong><p>(Se ruega puntualidad para el calentamiento).</p></div>
               <div className="stat"><small>Motivo:</small><strong>Celebrar mis 34 años como se debe.</strong></div>
               <a className="stat venue" href={mapUrl} target="_blank" rel="noreferrer">
-                <span><small>Lugar:</small><strong>Callejon del rosarito #2 zona centro</strong><p>https://maps.app.goo.gl/KzteH1vC87o4f6yz7</p></span><b>↗</b>
+                <span><small>Lugar:</small><strong>Callejon del rosarito #2 zona centro</strong><p>https://maps.app.goo.gl/vAsMFW3HURaZeJAp8</p></span><b>↗</b>
               </a>
             </div>
 
