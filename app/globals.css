@@ -9,3 +9,36 @@
 .contract{position:relative;display:grid;grid-template-columns:1fr 1.4fr auto;gap:30px;align-items:center;padding:34px 150px 34px 56px;color:#fff;background:var(--green)}.contract strong{display:block;color:var(--gold);font-size:1.6rem;line-height:1}.contract p{margin:0;line-height:1.45}.contract p strong{display:inline;color:#fff;font:700 1rem Arial,sans-serif;text-transform:none}.button.light{color:var(--ink);background:var(--gold);box-shadow:5px 5px 0 var(--red)}.stamp{position:absolute;right:34px;width:92px;height:92px;display:grid;place-content:center;border:3px solid var(--gold);border-radius:50%;color:var(--gold);font-weight:900;line-height:1.05;text-align:center;text-transform:uppercase;transform:rotate(-9deg)}
 .hero-copy>p+p{margin-top:12px}.text-card{padding:22px;border:2px solid var(--ink);background:#fff8;box-shadow:6px 6px 0 var(--green)}.text-card p{margin:0 0 14px;line-height:1.5}.text-card p:last-child{margin-bottom:0}.text-card ul{display:grid;gap:8px;margin:14px 0;padding-left:22px;font-weight:800}.ronaldo-callout p{position:relative;z-index:1;margin:0;font-weight:700;line-height:1.55}.contract{grid-template-columns:1fr auto}
 @media(max-width:900px){.invite-shell{padding:12px}.player-card{clip-path:none}.hero,.content-grid{grid-template-columns:1fr;padding:30px 22px}.number-block{min-height:220px}.number-block .age{font-size:13rem}.game-plan{padding:30px 0 0;border-left:0;border-top:3px solid var(--green)}.contract{grid-template-columns:1fr;padding:30px 22px}.stamp{display:none}.marquee{justify-content:flex-start;overflow:hidden;white-space:nowrap;font-size:.8rem}}@media(max-width:540px){h1{font-size:3.6rem}.stats-grid{grid-template-columns:1fr}.stat.venue{grid-column:auto}.number-block .age{font-size:11rem}.hero-actions .button{width:100%}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+@media(max-width:600px){
+  body{overflow-x:hidden}
+  .invite-shell{padding:0;background:#061c12}
+  .player-card{width:100%;max-width:100%;box-shadow:none}
+  .top-stripe{height:10px}
+  .hero,.content-grid{min-width:0;padding:24px 16px}
+  .hero{gap:8px}
+  h1{margin:14px 0 16px;font-size:clamp(3rem,17vw,4.4rem);line-height:.86}
+  .hero-copy,.content-grid>*,.stat,.stat>span,.rule>div{min-width:0}
+  .hero-copy>p{font-size:1rem;line-height:1.45}
+  .hero-actions{display:grid;grid-template-columns:1fr;margin-top:22px}
+  .hero-actions .button,.contract .button{width:100%;min-height:52px;padding:10px 14px;text-align:center}
+  .number-block{min-height:150px;overflow:hidden}
+  .number-block .age{font-size:clamp(8rem,42vw,10.5rem);letter-spacing:-.1em;text-shadow:6px 6px 0 var(--green)}
+  .cr7-badge{top:12px;right:12px;transform:rotate(5deg) scale(.72);transform-origin:top right}
+  .content-grid{gap:28px;padding-top:30px;padding-bottom:36px}
+  .section-heading{align-items:flex-start;gap:9px;margin-bottom:14px}
+  .section-heading span{flex:0 0 auto;padding:6px 8px}
+  .section-heading h2{overflow-wrap:anywhere;font-size:1.35rem;line-height:1.05}
+  .stats-grid{gap:13px}
+  .stat{min-height:0;padding:18px;box-shadow:4px 4px 0 var(--ink)}
+  .stat strong{font-size:clamp(1.8rem,10vw,2.5rem)}
+  .stat.venue{align-items:center;gap:12px}
+  .stat.venue p{overflow-wrap:anywhere;word-break:break-word;font-size:.82rem}
+  .stat.venue>b{flex:0 0 auto;font-size:2rem}
+  .text-card{padding:18px;box-shadow:4px 4px 0 var(--green)}
+  .text-card ul{padding-left:20px}
+  .game-plan{padding-top:26px}
+  .rule{grid-template-columns:34px minmax(0,1fr)}
+  .ronaldo-callout{padding:20px;box-shadow:5px 5px 0 var(--green)}
+  .contract{gap:20px;padding:28px 16px}
+}
